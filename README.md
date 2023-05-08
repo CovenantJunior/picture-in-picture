@@ -8,7 +8,7 @@ The PiP feature is commonly used for video conferencing, where you can have a vi
 
 ## Demo
 
-https://picture-in-picture
+https://picture-in-picture-omega.vercel.app/
 
 
 ## Features
