@@ -16,11 +16,16 @@ async function selectMediaStream() {
   }
 }
 
-// Click event listener - undisbales button first, request PIP and then disables
+// Click event listener - requests PIP
 btn.addEventListener('click', async () => {
-  btn.disabled = true;
+  if (_v.srcObject == null || _v.srcObject.active == false) {
+    // If PermissionStatus was denied or media stream was turned off, request media stream once more.
+    selectMediaStream();
+  } else {
+    // PermissionStatus granted, pop the PIP man!
+    await _v.requestPictureInPicture();
+  }
   await _v.requestPictureInPicture();
-  btn.disabled = false;
 })
 
 // selectMediaStream();
