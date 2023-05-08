@@ -10,6 +10,7 @@ async function selectMediaStream() {
     _v.srcObject = mediaStream;
     _v.onloadedmetadata = () => {
       _v.play();
+      btn.innerHTML = "Start PiP";
     }
   } catch (error) {
     console.info(error);
