@@ -17,6 +17,7 @@ https://picture-in-picture-omega.vercel.app/
 - navigator.mediaDevices Access
 - Back to Tab Option
 - Cross platform
+- UI Logics
 
 
 ## Installation
