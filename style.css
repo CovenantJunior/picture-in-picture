@@ -29,7 +29,7 @@ button {
   font-size: 25px;
   color: white;
   text-shadow: 0 2px 5px #000;
-  background: linear-gradient(to top, #696969, #575757);
+  background: linear-gradient(to top, #9C27B0, #607D8B);
   border: 2px solid black;
   border-radius: 7px;
   box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0,0,0,0.3);
