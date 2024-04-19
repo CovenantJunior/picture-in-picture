@@ -21,7 +21,7 @@ https://picture-in-picture-omega.vercel.app/
 - A seamless PiP Window
 - navigator.mediaDevices Access
 - Back to Tab Option
-- Cross platform
+- PC only
 - UI Logics
 
 
